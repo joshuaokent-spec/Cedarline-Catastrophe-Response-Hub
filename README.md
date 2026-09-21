@@ -2,7 +2,7 @@
 
 A working **catastrophe-response UX and visual-design case study** for the fictional Cedarline Mutual insurance experience.
 
-**Visual design · Responsive web · Crisis UX · Content design · Accessibility · HTML/CSS/JavaScript**
+**Visual design · Responsive web · Crisis UX · Content design · Accessibility · Adobe Creative Cloud · HTML/CSS/JavaScript**
 
 [**Live prototype**](https://joshuaokent-spec.github.io/Cedarline-Catastrophe-Response-Hub/) · [**Project brief**](docs/project-brief.md) · [**Visual direction**](docs/visual-design-direction.md)
 
@@ -15,8 +15,8 @@ A working **catastrophe-response UX and visual-design case study** for the ficti
 | **Role** | UX / UI Designer + front-end prototyper |
 | **Project type** | High-stress service UX + visual-design case study |
 | **Core problem** | Help people separate urgent safety actions from insurance tasks after severe weather |
-| **Deliverables** | Safety triage, hazard-specific guidance, recovery sequencing, visual system, printable checklist, accessibility review, heuristic evaluation |
-| **Tools / tech** | HTML, CSS, JavaScript, JSON, SVG, GitHub |
+| **Deliverables** | Safety triage, hazard-specific guidance, recovery sequencing, visual system, Adobe vector/image-production evidence, eight-page recovery guide, accessibility review, heuristic evaluation |
+| **Tools / tech** | Adobe Creative Cloud (vectorization, image treatment/cropping, InDesign conversion/render), HTML, CSS, JavaScript, JSON, SVG, GitHub |
 | **Quality** | Automated validation for JavaScript, scenario data, duplicate IDs, and same-page links |
 
 ## Project thesis
@@ -142,36 +142,60 @@ The [Heuristic Evaluation & Revision Log](docs/heuristic-evaluation.md) document
 - avoiding an alarmist red-heavy visual design;
 - repeating safe-documentation boundaries;
 - clearly labeling the lack of live emergency data;
-- separating coded visual assets from future Adobe source evidence.
+- separating coded implementation assets from the Adobe production evidence created later in the project.
 
-## Adobe production plan
+## Adobe production evidence
 
-Project 5 is intentionally designed to become the strongest **Adobe Creative Suite evidence** in the Cedarline portfolio.
+The Adobe production pass is now complete.
 
-The repository currently contains an explicit [Adobe Production Plan](docs/adobe-production-plan.md) for creating:
+Detailed workflow notes are in [Adobe Source-Work Evidence](docs/adobe-source-evidence.md), with the original production checklist retained as [Adobe Production Evidence](docs/adobe-production-plan.md).
 
-### Illustrator
-- catastrophe hero master illustration;
-- storm / flood / fire / outage icon set;
-- safe-documentation icon set;
-- production SVG exports.
+### Vector / Illustrator-ready work
 
-### Photoshop
-- catastrophe photography treatment board;
-- desktop/mobile crop examples;
-- before/after image treatment standards;
-- optimized web imagery.
+- isolated the Cedarline primary logo treatment;
+- isolated the catastrophe icon board;
+- processed both through Adobe vectorization;
+- produced **editable SVG vector paths** suitable for continued Illustrator work.
 
-### InDesign
-- a polished 6–8 page **Cedarline Severe Weather Recovery Guide**;
-- paragraph and character styles;
-- master-page system;
-- linked vector assets;
-- exported PDF.
+This is real Adobe vector-production evidence. The project does **not** claim a manually authored native `.ai` master.
+
+### Photoshop image treatment
+
+A storm-damage property image was processed through Adobe's imaging workflow:
+
+- auto-tone;
+- highlights **-28**;
+- darks **+18**;
+- contrast **+16**;
+- vibrance **+10**;
+- desktop **16:9** production crop;
+- mobile **9:16** production crop.
+
+The treatment deliberately preserves a realistic documentary tone instead of making damage look more dramatic.
+
+The project does **not** claim a manually assembled layered `.psd` master.
+
+### InDesign source work
+
+A complete **eight-page Cedarline Severe Weather Recovery Guide** was created and taken through Adobe's InDesign workflow.
+
+Adobe successfully produced and verified:
+
+- editable **INDD** source;
+- editable **IDML** source;
+- an InDesign package;
+- an InDesign-rendered PDF;
+- selected page renders for visual verification.
+
+The source was successfully rendered and exported back out through Adobe's InDesign engine.
 
 ### Portfolio integrity
 
-Those applications are **not yet listed as tools used**, because the corresponding source artifacts have not yet been created. Once we create them, this project becomes the visible Adobe evidence the portfolio currently lacks.
+Accurate description:
+
+> **Created Illustrator-ready SVG assets through Adobe vectorization, produced catastrophe-image treatments and responsive crops through Adobe imaging tools, and created a verified editable InDesign/IDML source package for an eight-page recovery guide.**
+
+The initial guide layout was programmatically authored and then converted into editable InDesign source. I do not represent it as an eight-page document manually laid out from scratch in the InDesign desktop UI.
 
 ## Research integrity
 
@@ -221,7 +245,8 @@ Together:
 │   ├── content-strategy.md
 │   ├── accessibility.md
 │   ├── heuristic-evaluation.md
-│   └── adobe-production-plan.md
+│   ├── adobe-production-plan.md
+│   └── adobe-source-evidence.md
 └── .github/
     └── workflows/
         └── validate.yml
@@ -252,4 +277,4 @@ In a production setting I would test:
 - screen-reader and high-zoom behavior;
 - whether the stronger visual direction still feels trustworthy.
 
-The next portfolio-production step is the **actual Adobe asset package** described above.
+The Adobe production pass is complete. The remaining portfolio-wide research gap is addressed by **Project 6 — Usability Study & Iterative Redesign**, which remains research-ready until real participant sessions are conducted.
