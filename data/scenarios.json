@@ -1,0 +1,86 @@
+[
+  {
+    "id": "wind",
+    "title": "Wind, hail or fallen trees",
+    "icon": "↯",
+    "summary": "Roof, siding, windows, trees or vehicle damage",
+    "now": [
+      "Stay clear of downed power lines and damaged trees.",
+      "Do not enter visibly unstable structures.",
+      "If weather is still active, remain in a sturdy safe location."
+    ],
+    "next": [
+      "When safe, photograph damage from stable ground.",
+      "Use temporary protection only if you can do so without climbing into danger.",
+      "Note damaged areas and any immediate mitigation you arrange."
+    ],
+    "later": [
+      "Start a claim when you are ready.",
+      "Keep receipts for reasonable emergency mitigation.",
+      "Add additional photos or estimates as recovery continues."
+    ]
+  },
+  {
+    "id": "flood",
+    "title": "Flood or rising water",
+    "icon": "≈",
+    "summary": "Floodwater, standing water or water entering the property",
+    "now": [
+      "Do not walk, swim or drive through floodwater.",
+      "If you evacuated, return only when officials say it is safe.",
+      "Avoid electrical equipment, downed lines and flooded appliances."
+    ],
+    "next": [
+      "Photograph damage only from safe, dry locations.",
+      "Use protective equipment during cleanup when appropriate.",
+      "Do not use flooded electrical or gas appliances until they have been checked for safety."
+    ],
+    "later": [
+      "Document damaged rooms and belongings as conditions allow.",
+      "Keep cleanup and temporary-lodging receipts.",
+      "Review whether flood-specific insurance or another policy may apply."
+    ]
+  },
+  {
+    "id": "fire",
+    "title": "Fire or smoke damage",
+    "icon": "△",
+    "summary": "Fire, smoke, soot or heat damage",
+    "now": [
+      "Stay out of the structure until fire or local officials say it is safe.",
+      "Seek medical care for injuries or smoke exposure.",
+      "Do not re-enter to retrieve belongings or documents."
+    ],
+    "next": [
+      "When cleared to enter, document visible damage without disturbing unsafe areas.",
+      "Secure temporary shelter if the home cannot be occupied.",
+      "Write down emergency-response information you already have."
+    ],
+    "later": [
+      "Begin the claim report with the information available.",
+      "Keep receipts for necessary temporary living costs.",
+      "Add inventories, estimates and supporting documents over time."
+    ]
+  },
+  {
+    "id": "outage",
+    "title": "Power outage after a storm",
+    "icon": "●",
+    "summary": "Extended outage, electrical damage or generator use",
+    "now": [
+      "Avoid downed power lines and damaged electrical equipment.",
+      "Use generators, grills and fuel-burning devices only outdoors and away from openings.",
+      "Use flashlights instead of candles when possible."
+    ],
+    "next": [
+      "Check food safety and follow local utility instructions.",
+      "Document visible electrical or appliance damage only when safe.",
+      "Record outage-related damage without opening energized equipment."
+    ],
+    "later": [
+      "Report covered property damage if applicable.",
+      "Keep receipts for necessary emergency expenses.",
+      "Have damaged systems inspected by qualified professionals."
+    ]
+  }
+]
