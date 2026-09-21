@@ -1,71 +1,69 @@
-# Adobe Production Plan
+# Adobe Production Evidence
 
-Project 5 is intentionally designed to become the strongest Adobe evidence in the Cedarline portfolio.
+## Status
 
-The current repository includes:
-- coded SVG brand mark;
-- coded SVG catastrophe hero illustration;
-- CSS visual system;
-- printable HTML recovery guide.
+**Production pass completed.**
 
-These are **not** represented as Illustrator, Photoshop, or InDesign source files.
+The original plan for Project 5 was to turn the catastrophe-response concept into concrete Adobe evidence. That pass has now been completed through Adobe Creative Cloud workflows.
 
-## Illustrator deliverables
+See the detailed [Adobe Source-Work Evidence](adobe-source-evidence.md).
 
-Create:
-1. Cedarline catastrophe hero master illustration;
-2. storm / flood / fire / outage icon set;
-3. safe-documentation icon set;
-4. export-ready SVG assets.
+## Completed vector work
 
-Evidence to preserve:
-- editable AI source;
-- layers / groups;
-- consistent artboard sizes;
-- SVG exports.
+- Cedarline primary-logo treatment isolated and vectorized through Adobe.
+- Catastrophe icon board isolated and vectorized through Adobe.
+- Editable SVG vector paths produced for further Illustrator refinement.
 
-## Photoshop deliverables
+**Current source evidence:** editable SVG.
 
-Create:
-1. catastrophe photography treatment board;
-2. storm/property-damage hero crop examples;
-3. acceptable vs. unacceptable image treatments;
-4. mobile / desktop responsive crop exports.
+**Not claimed:** a manually authored native `.ai` master.
 
-Standards:
-- do not sensationalize loss;
-- avoid identifiable victims;
-- preserve realistic damage;
-- do not manipulate images in ways that misrepresent severity.
+## Completed image-treatment work
 
-Evidence to preserve:
-- layered PSD;
-- before/after treatment board;
-- optimized web exports.
+A storm-damage property image was processed through Adobe:
 
-## InDesign deliverable
+- auto-tone;
+- highlight recovery;
+- lifted dark detail;
+- contrast refinement;
+- vibrance refinement;
+- desktop 16:9 crop;
+- mobile 9:16 crop.
 
-Create a polished 6–8 page:
+The production choices intentionally preserve realistic damage and avoid sensational imagery.
 
-**Cedarline Severe Weather Recovery Guide**
+**Current source evidence:** Adobe-processed raster outputs and crop variants.
 
-Suggested pages:
-1. cover;
-2. immediate safety;
-3. wind / hail;
-4. flood / water;
-5. fire / smoke;
-6. safe documentation;
-7. what can wait;
-8. contacts / notes.
+**Not claimed:** a manually assembled layered `.psd` master.
 
-Evidence to preserve:
-- INDD source;
-- paragraph / character styles;
-- master pages;
-- linked Illustrator assets;
-- exported accessible PDF where practical.
+## Completed InDesign work
 
-## Portfolio integrity rule
+A complete eight-page **Cedarline Severe Weather Recovery Guide** was created and converted through Adobe's InDesign workflow.
 
-Only add Adobe tools to the project’s “Tools used” list after the corresponding source artifact has actually been created.
+Adobe successfully produced:
+
+- editable INDD;
+- editable IDML;
+- InDesign package;
+- InDesign-rendered PDF;
+- selected page renders for verification.
+
+The source was successfully opened/rendered/exported by Adobe's InDesign engine after conversion.
+
+## Portfolio wording
+
+Safe, accurate wording:
+
+> Created Illustrator-ready SVG assets through Adobe vectorization, produced catastrophe-image treatments and responsive crops through Adobe imaging tools, and created a verified editable InDesign/IDML source package for an eight-page recovery guide.
+
+Avoid wording that suggests native `.ai` or layered `.psd` source exists when it does not.
+
+## Optional final desktop pass
+
+For stronger evidence of hands-on desktop-application proficiency:
+
+1. open the vector SVG in Illustrator, organize layers/groups, and save an `.ai` master;
+2. open original + treated photography in Photoshop, recreate the treatment with named adjustment layers/artboards, and save a layered `.psd`;
+3. open the generated INDD in InDesign, refine at least one paragraph style/master-page element, and save.
+
+These are enhancement steps, not prerequisites for documenting the Adobe workflows already completed.
