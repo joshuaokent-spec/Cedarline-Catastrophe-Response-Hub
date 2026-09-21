@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cedarline Mutual fictional catastrophe response UX portfolio prototype">
+  <meta name="theme-color" content="#102F38">
+  <title>Cedarline Mutual | Catastrophe Response Hub</title>
+  <link rel="icon" href="assets/cedarline-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to recovery guidance</a>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Cedarline Mutual catastrophe response home">
+    <img src="assets/cedarline-mark.svg" alt="" width="42" height="42">
+    <span><strong>Cedarline Mutual</strong><small>Catastrophe Response Hub</small></span>
+  </a>
+  <div class="header-actions">
+    <span class="prototype-pill">UX portfolio prototype</span>
+    <a href="#claim">Start a claim</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-copy">
+      <p class="eyebrow light">After severe weather</p>
+      <h1>Safety first. Insurance second. Recovery one step at a time.</h1>
+      <p>Use this hub to separate urgent safety actions from the insurance tasks that can wait until you are out of danger.</p>
+      <div class="hero-actions">
+        <a class="button emergency" href="#safety">I need to know what to do now</a>
+        <a class="button secondary-light" href="#claim">I am safe and ready to document damage</a>
+      </div>
+      <p class="live-note"><strong>No live alerts:</strong> This portfolio prototype does not use real-time emergency or weather data.</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <img src="assets/storm-response-hero.svg" alt="">
+    </div>
+  </section>
+
+  <section class="urgent-strip" id="safety" aria-labelledby="urgentHeading">
+    <div class="urgent-icon" aria-hidden="true">!</div>
+    <div>
+      <p class="eyebrow">Immediate safety check</p>
+      <h2 id="urgentHeading">Can you safely remain where you are?</h2>
+      <p>Choose the answer that best matches your situation. When in doubt, treat safety as the priority.</p>
+    </div>
+    <div class="triage-buttons" role="group" aria-label="Safety status">
+      <button type="button" data-safety="no">No</button>
+      <button type="button" data-safety="unsure">I am not sure</button>
+      <button type="button" data-safety="yes">Yes</button>
+    </div>
+  </section>
+
+  <section class="triage-result" id="triageResult" aria-live="polite" hidden></section>
+
+  <section class="scenario-section" aria-labelledby="scenarioHeading">
+    <div class="section-heading">
+      <p class="eyebrow">What happened?</p>
+      <h2 id="scenarioHeading">Choose the situation that fits best</h2>
+      <p>The guidance changes by hazard, but the order stays consistent: <strong>Now → Next → Later.</strong></p>
+    </div>
+    <div id="scenarioCards" class="scenario-grid"></div>
+  </section>
+
+  <section class="plan-section" id="plan" aria-labelledby="planHeading">
+    <div class="plan-header">
+      <div>
+        <p class="eyebrow">Your recovery sequence</p>
+        <h2 id="planHeading">Start with safety, then reduce further damage, then document</h2>
+      </div>
+      <span id="selectedScenario" class="scenario-badge">General severe weather</span>
+    </div>
+
+    <div class="timeline-tabs" role="tablist" aria-label="Recovery timeframe">
+      <button type="button" role="tab" aria-selected="true" aria-controls="nowPanel" id="nowTab">Now</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="nextPanel" id="nextTab">Next</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="laterPanel" id="laterTab">Later</button>
+    </div>
+
+    <div class="timeline-panel" id="nowPanel" role="tabpanel" aria-labelledby="nowTab"></div>
+    <div class="timeline-panel" id="nextPanel" role="tabpanel" aria-labelledby="nextTab" hidden></div>
+    <div class="timeline-panel" id="laterPanel" role="tabpanel" aria-labelledby="laterTab" hidden></div>
+  </section>
+
+  <section class="claim-section" id="claim" aria-labelledby="claimHeading">
+    <div class="claim-copy">
+      <p class="eyebrow">When it is safe</p>
+      <h2 id="claimHeading">Document the loss without putting yourself at risk</h2>
+      <p>Photos and notes can help later, but they are never more important than avoiding unstable structures, floodwater, downed lines, smoke, fire, or other hazards.</p>
+      <a class="button primary" href="https://joshuaokent-spec.github.io/cedarline-claim-reporting-ux/">Open the Cedarline claim-reporting prototype</a>
+    </div>
+
+    <div class="documentation-card">
+      <h3>Safe documentation checklist</h3>
+      <div id="documentationChecklist" class="checklist"></div>
+      <p class="save-status" id="saveStatus" role="status" aria-live="polite">Checklist progress stays on this device.</p>
+      <div class="checklist-actions">
+        <button type="button" class="text-button" id="resetChecklist">Reset checklist</button>
+        <a href="recovery-checklist.html" class="text-button">Open printable recovery guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="recovery-grid-section" aria-labelledby="recoveryHeading">
+    <div class="section-heading">
+      <p class="eyebrow">Recovery support</p>
+      <h2 id="recoveryHeading">What can wait until the immediate danger passes?</h2>
+    </div>
+    <div class="recovery-grid">
+      <article><span class="number">01</span><h3>Perfect damage inventory</h3><p>You do not need a complete room-by-room inventory before starting a claim. Begin with what you can safely observe.</p></article>
+      <article><span class="number">02</span><h3>Repair estimates</h3><p>Emergency mitigation and long-term repair planning are different tasks. Do not delay safety decisions while trying to price the entire loss.</p></article>
+      <article><span class="number">03</span><h3>Every receipt</h3><p>Keep receipts as recovery continues, but do not put yourself back into danger to retrieve paperwork or belongings.</p></article>
+      <article><span class="number">04</span><h3>Coverage conclusions</h3><p>A report can be submitted before coverage is determined. Policy terms, limits, exclusions and endorsements still govern the claim.</p></article>
+    </div>
+  </section>
+
+  <section class="visual-system" aria-labelledby="visualHeading">
+    <div class="section-heading">
+      <p class="eyebrow">Visual design rationale</p>
+      <h2 id="visualHeading">A more urgent visual language without turning the experience into an alarm screen</h2>
+    </div>
+    <div class="visual-cards">
+      <article class="storm"><strong>Storm navy</strong><span>#102F38</span><p>Creates a distinct catastrophe context and supports light-on-dark hero content.</p></article>
+      <article class="safety"><strong>Safety yellow</strong><span>#F5C451</span><p>Reserved for immediate-attention guidance and focus—not routine insurance actions.</p></article>
+      <article class="cedar"><strong>Cedar green</strong><span>#0B4A43</span><p>Returns the user to familiar Cedarline insurance actions once safety is established.</p></article>
+      <article class="recovery"><strong>Recovery mist</strong><span>#EEF4F2</span><p>Softens later-stage content and visually signals a transition out of immediate danger.</p></article>
+    </div>
+  </section>
+
+  <section class="references" aria-labelledby="referencesHeading">
+    <div class="section-heading">
+      <p class="eyebrow">Safety references</p>
+      <h2 id="referencesHeading">Public guidance informing this concept</h2>
+      <p>This is not a substitute for local emergency instructions. The prototype uses public Red Cross guidance as reference material for the safety-first hierarchy.</p>
+    </div>
+    <div class="reference-links">
+      <a href="https://www.redcross.org/get-help/disaster-relief-and-recovery-services/safety-immediate-aftermath.html">Red Cross — Staying Safe After a Disaster</a>
+      <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/flood.html">Red Cross — Flood Safety</a>
+      <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/thunderstorm.html">Red Cross — Thunderstorm Safety</a>
+      <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/hurricane.html">Red Cross — Hurricane Safety</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <strong>Cedarline Mutual is fictional.</strong>
+  <span>This is a UX portfolio prototype, not emergency or insurance advice.</span>
+</footer>
+</body>
+</html>
